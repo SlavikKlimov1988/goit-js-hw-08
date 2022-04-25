@@ -34,3 +34,4 @@ function createGalleryItems(imagesArray) {
     return imagesArray.map(el => `<a class="gallery__item" href="${el.original}"><img class="gallery__image" src="${el.preview}" alt="${el.description}"></a>`
     ).join('')
 }
+
