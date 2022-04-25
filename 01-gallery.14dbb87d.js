@@ -8,4 +8,4 @@ var t=arguments[3];function e(t){return(e="function"==typeof Symbol&&"symbol"==t
 },{}],"TfQ5":[function(require,module,exports) {
 "use strict";var e=require("./gallery-items"),l=t(require("simplelightbox"));function t(e){return e&&e.__esModule?e:{default:e}}require("simplelightbox/dist/simple-lightbox.min.css"),console.log(e.galleryItems);const i=document.querySelector(".gallery"),r=a(e.galleryItems);function a(e){return e.map(e=>`<a class="gallery__item" href="${e.original}"><img class="gallery__image" src="${e.preview}" alt="${e.description}"></a>`).join("")}i.insertAdjacentHTML("beforeend",r),i.addEventListener("click",e=>{if(e.preventDefault(),"IMG"===e.target.nodeName){let e=new l.default(".gallery a",{captionsData:"alt",captionDelay:"250"});e.on("show.simplelightbox",function(){}),e.on("error.simplelightbox",function(e){console.log(e)})}});
 },{"./gallery-items":"q5Rn","simplelightbox":"yx6k","simplelightbox/dist/simple-lightbox.min.css":"kz9M"}]},{},["TfQ5"], null)
-//# sourceMappingURL=/parcel-project-template/01-gallery.14dbb87d.js.map
+//# sourceMappingURL=/https:/github.com/SlavikKlimov1988/01-gallery.14dbb87d.js.map
