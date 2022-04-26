@@ -36,9 +36,10 @@ npm run dev
 `build`, заменив `имя_пользователя` и `имя_репозитория` на свои.
 
 ```json
-"homepage": "https://имя_пользователя.github.io/имя_репозитория",
+"homepage": "https://slavikklimov1988.github.io/goit-js-hw-08",
 "scripts": {
-  "build": "parcel build src/*.html --public-url /имя_репозитория/"
+  "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+  
 },
 ```
 
